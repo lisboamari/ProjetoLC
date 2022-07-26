@@ -3,6 +3,8 @@ public class Conta {
     private String titular;
     private double saldo;
 
+    public Conta() {}
+    
     public Conta(int numeroConta, String titular) {
         this.numeroConta = numeroConta;
         this.titular = titular;

@@ -46,7 +46,7 @@ public class Conta {
                 ", Nome do Cliente: " + titular;
     }
     
-    private final List<Conta> contass = new ArrayList<>();
+    private final List<Conta> contas = new ArrayList<>();
  
     // Construtor da classe Conta populando o array contas
     // instanciando objetos da classe Conta

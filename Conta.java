@@ -27,8 +27,6 @@ public class Conta {
         return true;
     }
 
-    // recebe como parâmetro a contaDestino, a qual sofrerá um crédito do valor.
-    // ao mesmo tempo, esse mesmo valor deverá ser debitado da conta origem
     public boolean transferir(Conta contaDestino, double valor) {
         boolean retirou = sacar(valor);
         if (retirou) {

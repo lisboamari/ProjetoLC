@@ -1,4 +1,4 @@
-public class Conta {
+public abstract class Conta {
     private int numeroConta;
     private String titular;
     private double saldo;

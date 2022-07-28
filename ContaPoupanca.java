@@ -8,6 +8,7 @@ public class ContaPoupanca extends Conta {
         
     }
 
+    @Override    
     public void gerarAcidente() {
         saldo=saldo*0.005;
         System.out.println("Juros adicionados");

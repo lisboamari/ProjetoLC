@@ -7,9 +7,11 @@ public class ContaInvestimento extends Conta {
         super(numeroConta, titular);
         
     }
-    
 
-    
-
+    @Override
+    public void gerarAcidente() {
+        saldo=saldo*1.01;
+        System.out.println("Rendimentos adicionados");        
+    }
     
 }

@@ -3,8 +3,8 @@ public class ClientePF extends Cliente {
         
     public ClientePF() {}
 
-    public ClientePF(String nome, String tipoCliente) {
-        super(nome, tipoCliente);
+    public ClientePF(String nome, String identificadorCliente) {
+        super(nome, identificadorCliente);
         
     }
     

@@ -1,7 +1,7 @@
 public abstract class Cliente {
 
     private String nomeCliente;
-    private String tipoCliente;
+    private String identificadorCliente;
 
     public String getNomeCliente() {
         return nomeCliente;
@@ -9,27 +9,27 @@ public abstract class Cliente {
     public void setNomeCliente(String nomeCliente) {
         this.nomeCliente = nomeCliente;
     }
-    public String getTipoCliente() {
-        return tipoCliente;
+    public String getIdentificadorCliente() {
+        return identificadorCliente;
     }
-    public void setTipoCliente(String tipoCliente) {
-        this.tipoCliente = tipoCliente;
+    public void setIdentificadorCliente(String identificadorCliente) {
+        this.identificadorCliente = identificadorCliente;
     }
 
     public Cliente () {
 
     }
     
-    public Cliente (String nomeCliente, String tipoCliente) {
+    public Cliente (String nomeCliente, String identificadorCliente) {
         this.nomeCliente = nomeCliente;
-        this.tipoCliente = tipoCliente;
+        this.identificadorCliente = identificadorCliente;
     }
     
     @Override
     public String toString() {
         return "Dados do Cliente: " +
                 "Nome do Cliente: " + nomeCliente + 
-                ", Tipo de Cliente: " + tipoCliente;
+                ", Identificador do Cliente: " + identificadorCliente;
 
     }
    

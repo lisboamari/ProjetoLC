@@ -33,21 +33,4 @@ public abstract class Cliente {
 
     }
    
-    private final List<Cliente> clientes = new ArrayList<>();
- 
-    // Construtor da classe Cliente populando o array clientes
-    // instanciando objetos da classe Cliente
-        this.clientes.add(new Cliente(
-            "Guimarães","PF"));
-        this.clientes.add(new Cliente(
-            "Mariana","PF"));
-        this.clientes.add(new Cliente(
-            "Watanabe","PF"));
-        this.clientes.add(new Cliente(
-            "Empresa X","PJ"));
-        this.clientes.add(new Cliente(
-            "Empresa Y","PJ"));
-        this.clientes.add(new Cliente(
-            "Empreza Z","PJ"));    
-    
-}
+   }

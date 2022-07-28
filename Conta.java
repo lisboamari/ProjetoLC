@@ -1,10 +1,11 @@
 public abstract class Conta {
     private int numeroConta;
     private String titular;
-    private double saldo;
+    protected double saldo;
 
-    public Conta() {}
-    
+    public Conta() {
+    }
+
     public Conta(int numeroConta, String titular) {
         this.numeroConta = numeroConta;
         this.titular = titular;
@@ -13,7 +14,10 @@ public abstract class Conta {
     public double getSaldo() {
         return this.saldo;
     }
-    
+    public double getNumeroConta() {
+        return this.numeroConta;
+    }
+
     public boolean sacar(double valor) {
         if (valor < saldo) {
             saldo = saldo - valor;
@@ -39,12 +43,13 @@ public abstract class Conta {
         }
     }
 
+    public abstract void gerarAcidente();
+
     @Override
     public String toString() {
         return "Dados da Conta: " +
-                "Numero da Conta: " + numeroConta + 
+                "Numero da Conta: " + numeroConta +
                 ", Nome do Cliente: " + titular;
     }
-    
-       
+
 }

@@ -1,10 +1,29 @@
 public class Aplicacao {
    // testa aplicacao Banco Lets Code
     public static void main(String[] args) throws Exception {
-        private final List<Conta> contasCorrentes = new ArrayList<>();
+     
+       private final List<ClientePF> clientesPF = new ArrayList<>();
+       private final List<ClientePJ> clientesPJ = new ArrayList<>();
  
-     // Construtor da classe ContaCorrente populando o array contasCorrentes
-     // instanciando objetos da classe ContaCorrente
+    // Construtor da classe Cliente populando o array clientesPF e clientesPJ
+    // instanciando objetos das classes ClientePF e ClientePJ
+        this.clientesPF.add(new ClientePF(
+            "Guimarães","PF"));
+        this.clientesPF.add(new ClientePF(
+            "Mariana","PF"));
+        this.clientesPF.add(new ClientePF(
+            "Watanabe","PF"));
+        this.clientesPJ.add(new ClientePJ(
+            "Empresa X","PJ"));
+        this.clientesPJ.add(new ClientePJ(
+            "Empresa Y","PJ"));
+        this.clientesPJ.add(new ClientePJ(
+            "Empreza Z","PJ"));         
+   
+       private final List<Conta> contasCorrentes = new ArrayList<>();
+    
+    // Construtor da classe ContaCorrente populando o array contasCorrentes
+    // instanciando objetos da classe ContaCorrente
         this.contasCorrenes.add(new ContaCorrente(
             1, "Guimarães"));
         this.contasCorrentes.add(new ContaCorrente(

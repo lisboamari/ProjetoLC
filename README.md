@@ -12,3 +12,10 @@ Crie as funcionalidades:
 6) Consultar saldo
 
 Use a classe "Aplicacao" para criar seu método "main" e demonstrar o funcionamento do seu código.
+
+
+## Integrantes do Grupo
+
+José Rodrigues Guimarães Filho
+Mariana Lemos Silva Lisboa
+Mario Watanabe

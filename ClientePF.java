@@ -32,7 +32,7 @@ public class ClientePF extends Cliente {
         return CP;
     }
 
-    public ContaInvestimento gContaInvestimento() {
+    public ContaInvestimento getContaInvestimento() {
         return CI;
     }
 

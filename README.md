@@ -15,7 +15,7 @@ Use a classe "Aplicacao" para criar seu método "main" e demonstrar o funcioname
 
 
 ## Integrantes do Grupo
+
 José Rodrigues Guimarães Filho
 Mariana Lemos Silva Lisboa
 Mario Watanabe
-##

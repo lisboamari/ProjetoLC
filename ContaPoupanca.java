@@ -3,12 +3,12 @@ public class ContaPoupanca extends Conta {
         
     public ContaPoupanca() {}
 
-    public ContaPoupanca(int numeroConta, String titular) {
-        super(numeroConta, titular);
+    public ContaPoupanca(int numeroConta, Cliente cliente) {
+        super(numeroConta, cliente);
         
     }
 
-    @Override    
+    @Override
     public void gerarAcidente() {
         saldo=saldo*1.005;
         System.out.println("Juros adicionados");

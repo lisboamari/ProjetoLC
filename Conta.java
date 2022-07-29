@@ -1,14 +1,14 @@
 public abstract class Conta {
     private int numeroConta;
-    private String titular;
+    protected Cliente cliente;
     protected double saldo;
 
     public Conta() {
     }
 
-    public Conta(int numeroConta, String titular) {
+    public Conta(int numeroConta, Cliente cliente) {
         this.numeroConta = numeroConta;
-        this.titular = titular;
+        this.cliente = cliente;
     }
 
     public double getSaldo() {
@@ -49,7 +49,7 @@ public abstract class Conta {
     public String toString() {
         return "Dados da Conta: " +
                 "Numero da Conta: " + numeroConta +
-                ", Nome do Cliente: " + titular;
+                ", Cliente: " + cliente;
     }
 
 }

@@ -22,7 +22,7 @@ public class ClientePJ extends Cliente {
     }
 
 
-    public ContaInvestimento gContaInvestimento() {
+    public ContaInvestimento getContaInvestimento() {
         return CI;
     }
 

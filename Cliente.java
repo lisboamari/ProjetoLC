@@ -1,7 +1,7 @@
 public abstract class Cliente {
 
-    private String nomeCliente;
-    private String identificadorCliente;
+    protected String nomeCliente;
+    protected String identificadorCliente;
 
     public String getNomeCliente() {
         return nomeCliente;

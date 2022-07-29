@@ -11,7 +11,7 @@ public class ContaCorrente extends Conta {
     @Override
     public void gerarAcidente() {
         saldo=saldo-9.9;
-        System.out.println("Taxa  de admin de 9,90");
+        System.out.println(" taxa de admin de R$ 9,90.");
     }
     
     @Override
